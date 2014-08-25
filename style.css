@@ -218,3 +218,19 @@ p:before {
 
 
 h1 + p { font-weight: bold }
+<<<<<<< HEAD
+
+
+h1 {
+    padding: 50px;
+    background-image: url(snazzy.jpg);
+    color: rgba(0,0,0,0.8);
+}
+
+
+#smut { color: hsl(36, 100%, 50%) }
+
+
+#rabbit { background: hsla(0, 75%, 75%, 0.5) }
+=======
+>>>>>>> ae47c1a2ceeeca3fc27c8e34e7bbbdbf3b53daa7
