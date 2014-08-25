@@ -175,3 +175,15 @@ p:before {
 #content {
     margin: 0 200px; /* setting top and bottom margin to 0 and right and left margin to 200px */
 }
+
+#marilyn {
+    background: #fc0; 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#ok_a_border_then {
+    border: 5px solid #8b2;
+    padding: 20px;
+    border-radius: 5px;
+}
