@@ -213,3 +213,5 @@ p:before {
 #contact * {
     display: block;
 }
+
+#genus_examples > li { border: 1px solid red }
