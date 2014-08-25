@@ -143,3 +143,22 @@ p:first-letter {
 p:first-line {
     font-weight: bold;
 }
+
+blockquote:before {
+    content: open-quote;
+}
+
+blockquote:after {
+    content: close-quote;
+}
+
+li:before {
+    content: "POW! ";
+    background: red;
+    color: #fc0;
+}
+
+p:before {
+    content: url(images/jam.jpg);
+}
+s
