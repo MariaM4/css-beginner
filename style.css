@@ -218,6 +218,7 @@ p:before {
 
 
 h1 + p { font-weight: bold }
+<<<<<<< HEAD
 
 
 h1 {
@@ -231,3 +232,5 @@ h1 {
 
 
 #rabbit { background: hsla(0, 75%, 75%, 0.5) }
+=======
+>>>>>>> ae47c1a2ceeeca3fc27c8e34e7bbbdbf3b53daa7
