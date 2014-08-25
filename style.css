@@ -163,16 +163,12 @@ p:before {
 }
 
 #navigation {
-    position: absolute;
-    top: 0;
-    left: 0;
+    float: left;
     width: 200px;
 }
 
 #navigation2 {
-    position: absolute;
-    top: 0;
-    right: 0;
+    float: right;
     width: 200px;
 }
 
