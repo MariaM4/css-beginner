@@ -218,7 +218,6 @@ p:before {
 
 
 h1 + p { font-weight: bold }
-<<<<<<< HEAD
 
 
 h1 {
@@ -232,5 +231,26 @@ h1 {
 
 
 #rabbit { background: hsla(0, 75%, 75%, 0.5) }
-=======
->>>>>>> ae47c1a2ceeeca3fc27c8e34e7bbbdbf3b53daa7
+
+
+@media print {
+    body {
+        font-size: 10pt;
+        font-family: times, serif;
+    }
+
+    #navigation {
+        display: none;
+    }
+}
+
+
+p { font-family: "font of all knowledge", arial, sans-serif; }
+
+
+@font-face {
+    font-family: "font of all knowledge";
+    src: local("font of all knowledge"), local(fontofallknowledge), url(fontofallknowledge.woff);
+    font-weight: 400;
+    font-style: normal;
+}
