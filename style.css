@@ -264,4 +264,16 @@ input[type=text][disabled] { border: 1px solid #ccc }
 a[href^=http] {
     padding-right: 10px;
     background: url(arrow.png) right no-repeat;
+<<<<<<< HEAD
 }
+
+a:link {
+   
+    transition: color .5s, font-size 2s;
+}
+a:hover {
+    color: hsl(36,100%,50%);
+}
+=======
+}
+>>>>>>> 63a247554fb3c99053b26aa27cea947a01ac19d1
