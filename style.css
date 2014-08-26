@@ -295,5 +295,31 @@ body {
     
 background: repeating-radial-gradient(#8b2, #8b2 10px, #e90 10px, #e90 20px);
 
+}
+
+@media screen and (max-width: 1000px) {
+
+    #content { width: 100% }
+
+}
+
+@media screen and (max-width: 800px) {
+
+    #nav { float: none }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    #content aside {
+        float: none;
+        display: block;
+    }
+
+}
+
+@media (device-pixel-ratio: 2) {
+
+    body { background: url(twiceasbig.png) }
 
 }
