@@ -289,3 +289,9 @@ a:hover {
     background: hsl(36,100%,50%);
     transform: rotate(-10deg);
 }
+
+body {
+    background: #666 url(fade.png) 0 0 repeat-y;
+    background: -webkit-linear-gradient(right, #000, #666); 
+    background: linear-gradient(to right, #000, #666);
+}
